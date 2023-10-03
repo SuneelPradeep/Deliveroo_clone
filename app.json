@@ -4,27 +4,30 @@
     "slug": "Deliveroo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/foodlogotwo.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/foodsplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/foodlogotwo.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fooddeliveryapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/foodlogotwo.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4da2eba6-1da2-466a-a0c0-29c9ca449269"
+      }
     }
   }
 }
